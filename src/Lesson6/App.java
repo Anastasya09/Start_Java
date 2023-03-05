@@ -7,12 +7,7 @@ public class App {
 
         int minivanRange;
 
-        Vehicle minivan = new Vehicle();
-
-        minivan.passengers = 7;
-        minivan.fuelCap = 16;
-        minivan.milesPerGallon = 21;
-
+        Vehicle minivan = new Vehicle(7, 16, 21);
 
         minivan.RangeCalculation();
         minivanRange = minivan.rangeCalc();

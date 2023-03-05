@@ -3,7 +3,7 @@ package Lesson7;
 public class AnimalDemo {
     public static void main(String[] args) {
 
-        Animal tiger;
+        Animal tiger;//ссылочная перемнная на объект класса animal
 
         tiger = new Animal();
 

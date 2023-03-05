@@ -5,6 +5,12 @@ public class Vehicle {
     int fuelCap;
     int milesPerGallon;
 
+    Vehicle(int passengers, int fuelCap, int milesPerGallon) {
+        this.passengers = passengers;
+        this.fuelCap = fuelCap;
+        this.milesPerGallon = milesPerGallon;
+    }
+
     void RangeCalculation() {
         System.out.println("Distance is " + fuelCap * milesPerGallon);
     }
