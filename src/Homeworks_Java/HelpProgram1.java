@@ -1,4 +1,4 @@
-package Homeworks;
+package Homeworks_Java;
 
 import java.util.Scanner;
 public class HelpProgram1 {

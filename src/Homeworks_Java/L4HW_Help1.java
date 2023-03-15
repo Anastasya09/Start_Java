@@ -1,4 +1,4 @@
-package Homeworks;
+package Homeworks_Java;
 
 class L4HW_Help1 {
     void helpOn(int what) {

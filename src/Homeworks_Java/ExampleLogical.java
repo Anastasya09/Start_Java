@@ -1,4 +1,4 @@
-package Homeworks.HW_JAVA;
+package Homeworks_Java;
 
 public class ExampleLogical {
     public static void main(String args[]) {
