@@ -2,7 +2,7 @@ package Lesson9;
 
 import Lesson8.ArrayUtils;
 
-public class ArrayReverse {
+public class ArrayReversed {
     public static void main(String[] args) {
 
 //        char [] chars = {'a', 'b', 'c', 'D', 'e'};
