@@ -1,6 +1,8 @@
 package Lesson7;
 
-public class MyDog {
+import Lesson12.Growable;
+
+public class MyDog implements Growable {
 
     int age;
     String name;
@@ -27,5 +29,22 @@ public class MyDog {
                 "age=" + age +
                 ", name='" + name + '\'' +
                 '}';
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Om-nom-nom");
+
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("Grrr-psss");
+
+    }
+
+    @Override
+    public int changeSize(int previousSizeInCM) {
+        return previousSizeInCM++;
     }
 }
